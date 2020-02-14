@@ -3,15 +3,15 @@ description: |
   Cards are used to pair images, text and buttons together in a well-organized section.
 
 patterns:
-  buy-now:
+  buy-now-card:
     title: "Buy now card"
     description: |
       A card that lists a product with its price and a buy now button.
-  banner:
+  banner-card:
     title: "Banner card"
     description: |
-      A clickable banner
-  buy-now:
-    title: "Buy now card"
+      A clickable banner.
+  pre-order-card:
+    title: "Pre-order card"
     description: |
-      A card that lists a product with its price and a buy now button.
+      A card with an image, product description and a button that lets one pre-order an upcoming product.
