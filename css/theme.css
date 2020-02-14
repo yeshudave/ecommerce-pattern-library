@@ -2,12 +2,13 @@
   --color-primary: #be1e2e;
   --color-primary-light: #e53042;
   --color-secondary: black;
-  --color-accent: gold;
+  --color-accent: #bdfc00;
   --color-extra: #ff6672;
-  --color-bg: #b2b0b0;
+  --color-bg: #706f6f;
+  --color-text: #e2e2de;
 
   --font-primary: Raleway, sans-serif;
-  --font-secondary: "Fredoka One", cursive;
+  --font-secondary: Baloo, cursive;
 }
 
 html {

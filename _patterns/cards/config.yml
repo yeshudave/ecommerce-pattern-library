@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards are used to pair images, text and buttons together in a well-organized section.
+
+patterns:
+  buy-now:
+    title: "Buy now card"
+    description: |
+      A card that lists a product with its price and a buy now button.
+  banner:
+    title: "Banner card"
+    description: |
+      A clickable banner
+  buy-now:
+    title: "Buy now card"
+    description: |
+      A card that lists a product with its price and a buy now button.
