@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #be1e2e;
+  --color-primary-light: #e53042;
+  --color-secondary: black;
+  --color-accent: gold;
+  --color-extra: #ff6672;
+  --color-bg: #b2b0b0;
+
+  --font-primary: Raleway, sans-serif;
+  --font-secondary: "Fredoka One", cursive;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+ul, ol, dl {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+blockquote, cite {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
+em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+  font-weight: italic;
+}
