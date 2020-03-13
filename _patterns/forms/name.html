@@ -1,6 +1,8 @@
-<form class="max-length island" action="#" method="post">
-  <div class="push-1-2">
-    <label for="name">Name</label>
-    <input id="name" required>
-  </div>
-</form>
+<div class="wrapper">
+  <label for="name">Name</label>
+  <input id="name" required aria-describedby="name-error">
+  <p class="error-message milli island-1-4 push-0" id="name-error">
+    <i class="icon i-16"><svg><use xlink:href="/images/error.svg#error" /></svg></i>
+    <span class="icon-label">Please provide a name</span>
+  </p>
+</div>

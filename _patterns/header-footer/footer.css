@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--color-extra);
+}
+
+a {
+  font-style: normal;
+  color: var(--color-secondary);
+
+}
+
+p {
+  color: var(--color-secondary);
+}
+
+li a {
+  color: var(--color-secondary);
+}

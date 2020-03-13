@@ -5,7 +5,7 @@ patternbot:
   title: "Gametron"
   description: |
     A brand new online video game store, offering the best deals on your favorite games and accessories. Its time to game!
-  font_url: "https://fonts.googleapis.com/css?family=Baloo|Raleway&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Bree+Serif|Raleway&display=swap"
   colors:
     background: "--color-bg"
     accent: "--color-accent"
@@ -13,7 +13,7 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.secondary: |
-      Baloo was selected because it suits the whole feel and theme of the website, and will only be used for headings.
+      Bree Serif was selected because it suits the whole feel and theme of the website, and will only be used for headings.
     typefaces.primary: |
       Raleway is a clean and easy-to-read font that'll be used for most of the typographic content on the website.
     colors.primary: |

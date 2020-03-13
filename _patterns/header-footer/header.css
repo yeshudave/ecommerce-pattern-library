@@ -1,0 +1,20 @@
+.header {
+  background-color: var(--color-extra);
+}
+
+.logo {
+  width: 20%;
+}
+
+.button {
+  color: var(--color-secondary);
+}
+
+.button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
+
+.search {
+  color: var(--color-text);
+}

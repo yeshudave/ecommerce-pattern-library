@@ -1,0 +1,33 @@
+title: "Forms"
+description: |
+  Forms are filled out by users to ask questions or provide feedback.
+
+patterns:
+  name:
+    title: "Name"
+    description: |
+      A field to enter the name.
+  email:
+    title: "Email Address"
+    description: |
+      A field to enter the email address.
+  radio:
+    title: "Product Selection Radio Buttons"
+    description: |
+      A group of radio buttons.
+  date:
+    title: "Date Selection"
+    description: |
+      A date selection menu.
+  feedback:
+    title: "Feedback Text-Area"
+    description: |
+      A text-area to ask questions or provide feedback.
+  shipping:
+    title: "Shipping Information"
+    description: |
+      Fields for users to enter the shipping information.
+  payment:
+    title: "Payment Information"
+    description: |
+      Fields for users to enter the payment information.

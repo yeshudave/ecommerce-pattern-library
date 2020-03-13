@@ -1,0 +1,13 @@
+title: "Header & Footer"
+description: |
+  The header and footer of the website.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The header of the website, consisting of the main navigation.
+  footer:
+    title: "Footer"
+    description: |
+      The footer of the website, consisting of social media links and secondary information that might be useful to the user.
