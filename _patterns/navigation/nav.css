@@ -1,0 +1,12 @@
+.previous, .next {
+  text-decoration: none;
+  display: inline-block;
+  background-color: var(--color-extra);
+  color: var(--color-secondary);
+  border-radius: 30%;
+}
+
+.previous:hover, .next:hover {
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
