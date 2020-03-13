@@ -41,8 +41,14 @@ blockquote, cite {
   font-weight: bold;
 }
 
-em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
+em, strong, del, ins, abbr, dfn, i, b, q, s, u {
   font-family: var(--font-primary);
   color: var(--color-accent);
+  font-weight: italic;
+}
+
+mark {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
   font-weight: italic;
 }
