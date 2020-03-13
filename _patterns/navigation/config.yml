@@ -3,7 +3,7 @@ description: |
   Navigation buttons are used to access other parts and sections of the page and perform functions like moving to the next and previous page.
 
 patterns:
-  buy-now-card:
-    title: "Buy now card"
+  nav:
+    title: "Page buttons"
     description: |
-      A card that lists a product with its price and a buy now button.
+      A group of buttons that lets the user navigate to different pages or go to the previous or next page.
