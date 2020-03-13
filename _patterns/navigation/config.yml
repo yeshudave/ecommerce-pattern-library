@@ -3,7 +3,7 @@ description: |
   Navigation buttons are used to access other parts and sections of the page and perform functions like moving to the next and previous page.
 
 patterns:
-  nav:
+  navigation:
     title: "Page buttons"
     description: |
       A group of buttons that lets the user navigate to different pages or go to the previous or next page.
