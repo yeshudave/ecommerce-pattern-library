@@ -22,3 +22,9 @@ patternbot:
       The secondary colour is black, as it goes well with almost every other primary colour, in this case, red, which has been a popular pair for a long time.
     colors.accent: |
       The accent colours are used for highlights and the background. They consist of lime green, grey and a light tone of red.
+  layouts:
+    default: |
+      The default layoout should be used for almost every page, it includes the website's primary header and footer.
+  collections:
+    products:
+      output: true

@@ -1,8 +1,8 @@
 <div class="card wrapper">
-  <img class="image img-flex" src="/images/switch.jpeg" alt="switch">
+  <img class="image img-flex" src="{{include.data.image}}" alt="switch">
   <div class="wrapper">
-    <p class="text-center milli pad-t-1-4 push-0 bold">Rocket League (Nintendo Switch)</p>
-    <p class="text-center micro push-0 pad-b-1-2 price">C$ 59.99</p>
-    <a class="btn push" href="#">Buy now!</a>
+    <p class="text-center milli pad-t-1-4 push-0 bold">{{include.data.title}}</p>
+    <p class="text-center micro push-0 pad-b-1-2 price">{{include.data.price}}</p>
+    {% pattern buttons/primary text="Buy now" %}
   </div>
 </div>
