@@ -16,6 +16,21 @@ patterns:
     description: |
       A clickable banner.
   call-to-action:
+    fields:
+      - name: text
+        type: string
+        example: "Gaming accessories starting at C$39.99"
+      - name: image
+        type: string
+        example: "xbox"
+      - name: desc
+        type: string
+        example: "Check them out!"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
     title: "Call-to-Action Banner"
     description: |
       A banner some text and a button.

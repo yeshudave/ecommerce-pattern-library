@@ -16,9 +16,9 @@
   </div>
 
   <nav class="grid">
-    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4" href="#">Home</a>
-    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4" href="/products/">Products</a>
-    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4" href="#">About</a>
-    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4" href="#">Contact</a>
+    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4" href="/">Home</a>
+    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4 {% if page.highlight_nav == 'products' %}current{% endif %}" href="/products/">Products</a>
+    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4 {% if page.highlight_nav == 'about' %}current{% endif %}" href="#">About</a>
+    <a class="button milli unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-4 {% if page.highlight_nav == 'contact' %}current{% endif %}" href="#">Contact</a>
   </nav>
 </div>
